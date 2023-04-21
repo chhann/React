@@ -1,0 +1,19 @@
+[
+    {
+        "modelNo" : 1,
+        "imgUrl" : "https://balenciaga.dam.kering.com/m/34a9c26f6b4c57a5/Large-2.jpg",
+        "itemList" : [
+            {"category" : "shoes",
+                "itemNo" : 2,
+                "price" : 3000,
+                "itemImgUrl" : "asdasd"
+            },
+            {
+                "category" : "shoes",
+                "itemNo" : 2,
+                "price" : 3000,
+                "itemImgUrl" : "asdasd"
+            }
+        ]
+    }
+]

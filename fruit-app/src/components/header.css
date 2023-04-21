@@ -1,0 +1,14 @@
+.nav {
+    margin : 0px 280px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.all {
+    border-bottom: 1px solid black;
+}
+

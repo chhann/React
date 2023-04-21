@@ -14,6 +14,8 @@ import LifeCycle from './components/LifeCycle';
 import ArrowComponent from './components/ArrowComponent';
 import ArrowTest from './components/ArrowTest';
 import ArrowState from './components/ArrowState';
+import EffectHook from './components/EffectHook';
+import EffectHook2 from './components/EffectHook2';
 /* 리엑트에서 오류가 뜨는 이유*/
 // 1. 존재하지않는 컴포넌트 출력 (컴포넌트를 만든이후에 이름은 바꾸지 말 것)
 // >> 이름을 바꾼후에는 바꾼 그 이름으로 모든 컴포넌트 수정
@@ -73,6 +75,14 @@ function App() {
 
       {/* 함수형 컴포넌트의 state 사용 */}
       <ArrowState/>
+
+      {/** 함수형 컴포넌트의 hook 사용 */}
+      {/* <EffectHook /> */}
+
+      {/* 함수형 컴포넌트 useEffect응용 */}
+      <EffectHook2 />
+
+      
 
     </div>
   );
